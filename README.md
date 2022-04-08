@@ -92,3 +92,25 @@ If you haven’t used tinyurl.com before, please try creating a new shortened UR
 
 ```
 
+ //         if(!isValid(longUrl)){
+        //            return res.status(400).send({status:false, msg:"Input LongURL"})
+        //         }
+        //         if(!/^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/.test(longUrl.trim())){
+        //            return  res.status(40).send({status:false, msg :"Invalid URL"})
+        //         }
+
+        //         if(!isValid(shortUrl)){
+        //             return  res.status(400).send({status:false , msg: "Input ShortUrl"})
+        //         }
+        //         if(!isValid(urlCode)){
+        //             return  res.status(400).send({status:false , msg: "Input url code"})
+        //         }
+
+        //         const result = await Models.create(data)
+        //         return res.status(201).send({ status: true, msg: "Data URL created Sucessfully", data: result })
+        //     }
+        //     catch (error) {
+        //         return res.status(500).send(error.message)
+        //     }
+
+        // }
